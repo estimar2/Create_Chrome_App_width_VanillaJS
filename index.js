@@ -2,7 +2,14 @@
 // Initialize
 // Use
 
-var a = 221;
-const b = a - 5;
+// String
+// const what = "Nicolas";
 
-console.log(b, a);
+// Boolean
+// const wat = false;
+
+// Number
+// const wat = 666;
+
+// Float
+// const wat = 55.1;
