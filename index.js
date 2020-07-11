@@ -1,17 +1,15 @@
-const monday = "Mon";
-const tuesday = "Tue";
-const wednesday = "Wed";
-const thursday = "Thu";
-const friday = "Fri";
-const saturday = "Sat";
-const sunday = "Sun";
+const nicoInfo = {
+  name: "Nico",
+  age: 33,
+  gender: "Male",
+  isHandsome: true,
+  favMovies: ["Along the gods", "LOTR", "Oldboy"],
+  favFood: [
+    { name: "Kimchi", fatty: false },
+    { name: "Cheeseburger", fatty: true },
+  ],
+};
 
-const something = "Something";
+console.log(nicoInfo);
 
-const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", something];
-
-console.log(monday, tuesday, wednesday, thursday, friday, saturday, sunday);
-
-console.log(daysOfWeek);
-
-console.log(daysOfWeek[0]);
+console.log(nicoInfo.favFood[0].fatty);
