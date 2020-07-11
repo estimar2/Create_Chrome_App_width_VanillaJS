@@ -1,15 +1,17 @@
-// Create
-// Initialize
-// Use
+const monday = "Mon";
+const tuesday = "Tue";
+const wednesday = "Wed";
+const thursday = "Thu";
+const friday = "Fri";
+const saturday = "Sat";
+const sunday = "Sun";
 
-// String
-// const what = "Nicolas";
+const something = "Something";
 
-// Boolean
-// const wat = false;
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", something];
 
-// Number
-// const wat = 666;
+console.log(monday, tuesday, wednesday, thursday, friday, saturday, sunday);
 
-// Float
-// const wat = 55.1;
+console.log(daysOfWeek);
+
+console.log(daysOfWeek[0]);
