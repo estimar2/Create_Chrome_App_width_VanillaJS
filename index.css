@@ -162,6 +162,10 @@ body {
   padding-left: 20px;
 }
 
+.js-toDoList li {
+  line-height: 1.5rem;
+}
+
 button {
   border: 0;
 
