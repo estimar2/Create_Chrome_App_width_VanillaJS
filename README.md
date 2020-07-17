@@ -1,1 +1,1 @@
-# Create Chrome App width Vanilla JS
+# Create Chrome App with Vanilla JS
